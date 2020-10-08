@@ -1,0 +1,320 @@
+@keyframes shakeme {
+  0%{ transform:rotate(20deg);transform: scale(1);}
+    10%{transform:rotate(-20deg);}
+      20%{transform:rotate(20deg);}
+        25%{transform:rotate(-20deg);transform: scale(1.1);}
+        30%{transform:rotate(20deg);transform: scale(1.2);}
+        35%{transform:rotate(-20deg);transform: scale(1.1);}
+          40%{transform:rotate(20deg);transform: scale(1);}
+        50%{transform:rotate(-20deg);}
+         60%{transform:rotate(20deg);}
+  100% {transform:rotate(0deg);transform: scale(1);}
+}
+
+
+
+
+.navbar{
+  background: #0984e3;
+  border: none;
+  box-shadow: 1px 1px 10px 1px;
+
+}
+
+.navbar .navbar-header button{
+  border:none;
+  font-size: 20px;
+  color:white;
+}
+.navbar-nav.navbar-right .btn {
+ position: relative; 
+ z-index: 2; 
+ padding: 4px 20px; 
+ margin: 10px auto;
+  }
+
+.btn.btn-circle { 
+  border-radius: 0 20px 0 20px;
+  background: transparent;
+  border: 3px solid  white
+
+     }
+
+.navbar ul li a{
+font-weight: bold;
+text-decoration: none;
+transition: .3s;
+      } 
+.navbar ul li a:hover{
+transform: scale(1.2);
+      } 
+
+      .body-data{
+        padding: 150px;
+        padding-top:220px;
+      }
+
+         .body-data img{
+        height: 250px;
+        width:250px;
+        border-radius: 50%;
+        box-shadow:  0px -30px 50px black;
+        transition: .5s
+      }
+        .body-data img:hover{
+          transform: scale(1.1);
+        }
+
+        .body-data .occupation{
+          text-align:center
+        }
+
+        .body-data .occupation h1{
+          font-family:Impact, Charcoal, 
+          sans-serif; 
+          color:white;
+          text-shadow: 0px -30px 20px black;
+        }
+
+        .body-data .occupation p{
+          text-align: justify; 
+          padding:10px; 
+          font-family: Arial Black; 
+          color:white;
+        
+        }
+
+
+       .button-row div button{
+        background:transparent;
+        width: 100%;
+        border:3px solid #0984e3;
+        color:#0984e3;
+        font-weight: bold;
+        transition: .5s;
+        border-radius: 0 20px 0 20px
+
+      }
+       .button-row div{
+        padding: 5px
+       }
+      .button-row div button:hover{
+        background: #0984e3;
+        color:white;
+      }
+  .social-row div{
+    padding-top: 20px
+  }
+.social-row div i{
+        color:#0984e3;
+        color:white;
+        transition: .5s;
+        margin: 10px;
+        transition: .3s
+
+
+      }
+
+      .social-row div i:hover{
+         animation-name: shakeme;
+  animation-duration: 1s;
+      }
+
+
+
+
+
+
+.services div{
+
+  text-align: center;
+  padding: 5px;
+
+}
+.services .service-content{
+  background-image: linear-gradient(to bottom right, black,black, grey );
+    color: white;
+    padding: 20px;
+    transition: .5s;
+
+
+}
+.service-content:hover{
+  background-image: linear-gradient(to bottom right,grey,black, black );
+}
+
+.services .service-content i{
+  background: white;
+  padding: 50px;
+  font-size: 60px;
+  color:#2d3436;  
+  border-radius: 50%;
+
+}
+
+.services .heading{
+  padding: 50px;
+  text-align: center;
+}
+
+.services .heading h1{
+font-weight: bold;
+}
+
+.services .service-content i:hover{
+
+  animation-name: shakeme;
+  animation-duration: 1s;
+}
+
+
+
+
+
+.plans-main
+{
+  width:100%;
+  height:auto;
+  background:#fff;
+  text-align:center;
+  border-radius:10px;
+  overflow:hidden;
+  position:relative;
+  transition:0.5s;
+  margin-bottom:28px;
+}
+
+
+.plans-main i
+{
+font-size: 50px;
+background: #2d3436; 
+border:2px solid; 
+padding: 30px;
+height: 100px;
+width: 100px;
+color: white;
+border-radius: 50%
+}
+
+.plans-main h3
+{
+  font-size:20px;
+  font-weight:700;
+  color: white
+}
+
+.plans-main p
+{
+  margin-bottom:0;
+  color: white
+}
+
+.team-back
+{
+  width:100%;
+  height:auto;
+  position:absolute;
+  top:0;
+  left:0;
+  padding:5px 15px 0 15px;
+  text-align:left;
+  background:#fff;
+  border:5px solid #2d3436;
+  
+}
+
+.team-front
+{
+  width:100%;
+  height:auto;
+  position:relative;
+  z-index:10;
+  background:#2d3436;  
+  padding:15px;
+  bottom:0px;
+  transition: all 0.5s ease;
+}
+
+.plans-main:hover .team-front
+{
+  bottom:-200px;
+  transition: all 0.5s ease;
+}
+
+.plans-main:hover
+{
+  border-color:#777;
+  transition:0.5s;
+}
+
+.footer{
+  margin-top:100px;
+}
+
+.footer .crights{
+  padding: 20px;
+  font-size: 15px;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  background: #0984e3;
+}
+
+
+.form-sec{
+  margin-top: 100px;
+ background:#ccc; 
+ padding:15px;
+
+      background-image: linear-gradient(to bottom right, black,black, grey );
+  padding: 50px;
+  color:white;
+}
+.form-sec input{
+  border: 2px solid white;
+  border-radius: 0 10px 0 10px; 
+  background: transparent;
+  color:white;
+}
+
+.form-sec textarea{
+  border: 2px solid white;
+  border-radius: 0 10px 0 10px; 
+  background: transparent;
+  color:white;
+}
+
+.form-sec button{
+   background:transparent;
+        width: 100%;
+        border:3px solid #0984e3;
+        color:#0984e3;
+        font-weight: bold;
+        transition: .5s;
+        border-radius: 0 10px 0 10px
+}
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li{
+   font-weight: bold;
+    
+      } 
+    
+    .navbar .nav-collapse { 
+      margin: 7.5px auto;
+       padding: 0; 
+    }
+
+      .body-data{
+        background: blue;
+        padding: 15px;
+        padding-top:100px;
+      }
+   
+   .form-sec{
+width: 100%
+}
+
+  
+}
